@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EPSI - GAMES</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Open Sans", sans-serif}
+body {font-family: "Roboto", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card blue white-bg">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">ACCUEIL</a>
+    <a href="#info" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFOS</a>
+    <a href="#jeux" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LES JEUX</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="#inscription" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INSCRIPTIONS</a>
+    <a href="#ylocation" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMMENT Y ACCEDER ?</a>
+    <a href="#rules" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RÈGLES</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#info" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INFOS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#jeux" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LES JEUX</a>
+  <a href="#inscription" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INSCRIPTIONS</a>
+  <a href="#ylocation" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMMENT Y ACCEDER ?</a>
+  <a href="#rules" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RÈGLES</a>
+
+</div>
+<!-- Page content -->
+      <div class="w3-content" style="max-width:2000px;margin-top:46px">
+      
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center white">
+          <img src="source\img\EPSI_logo_neg.png" style="height:100%" id="logo_epsi">
+          <img src="source\img\epsi-game-logo.png" style="width:10%">
+
+          
+
+          <div class=" w3-container w3-padding-32 w3-hide-small">
+            <h1>EPSI <b class="orange">Games</b></h1>
+          
+          </div>
+        </div>
+        <!-- The Info Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64  white" style="max-width:800px" id="info">
+          <h2 class="w3-wide">Info</h2>
+          <p class="w3-opacity"><i>Tournoi de jeux vidéos</i></p>
+          <p class="w3-justify">Bienvenue sur le site de l'EPSI GAMES, le tournoi de jeux vidéo organisé par l'EPSI Auxerre ! 
+            Le tournoi a lieu le 22 avril 2023 au Pôle-Formation 58/89, 6 Route de Monéteau à Auxerre. 
+            Venez participer en équipe de 3 ou de 5 sur des jeux comme League of Legends, Rocket League ou encore Counter-Strike : Global Offensive,
+            et tenter de gagner des lots pour les finalistes !
+            La finale sera sur scène, dans l'amphithéatre du campus d'Auxerre, et retransmise sur Twitch sur la chaine de l'EPSI. 
+            Inscrivez-vous sur le formulaire ci-dessous, et rejoignez le serveur Discord pour toutes infos complémentaires !</p>
+          
+            <button class="discord-button w3-center" onclick="window.location.href = 'https://discord.gg/P6y9shZbSv';">Discord</button>
+          
+        </div>
+      
+  <!-- The Rules Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="rules">
+    <h2 class="w3-wide  white">Règles</h2>
+    <a href="https://drive.google.com/file/d/1yknQFxA0nK38zc7Vs6tdayT2DBKBa_fE/view?usp=share_link" download class="rules-button ">Règlement Counter Strike Global Offensive 2023</a><br/>
+    <br/>
+    <a href="https://drive.google.com/file/d/1v9NOl4-3ycHjAWxPj_MzY2B0yiA4Y7aO/view?usp=share_link" download class="rules-button">Règlement Rocket League 2023</a><br/>
+    <br/>
+    <a href="https://drive.google.com/file/d/1lL4ZICRVyhyf8jtT7LQNT-W_IUJOBs6c/view?usp=share_link" download class="rules-button">Règlement League Of Legends 2023</a><br/>
+
+
+  </div>
+<!-- Live Twitch Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+  <h2 class="w3-wide w3-center white">Live Twitch</h2>
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m12">
+      <div class="w3-card">
+        <div class="w3-responsive">
+          <iframe src="https://player.twitch.tv/?channel=ecolesepsiwis&parent=epsi-games.online" frameborder="0" scrolling="no" allowfullscreen="true" height="400" width="100%"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- The Tour Section -->
+  <div id="jeux">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center white">Les jeux</h2>
+
+      
+      <p class="w3-opacity w3-center white"><i>Voici les jeux de cette édition !</i></p><br>
+
+      <div>
+        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">
+          <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_184x69.jpg" alt="CS:GO" height="69" width="184" class="w3-center">
+        </a>
+        <a href="https://www.rocketleague.com/" target="_blank">
+          <img src="https://www.pcspecialist.co.uk/images/landing/pcs/games/lp/rllogo2.png" alt="Rocket League" height="69" width="184" class="w3-center">
+        </a>
+        <a href="https://na.leagueoflegends.com/en-us/" target="_blank">
+          <img src="https://logos-world.net/wp-content/uploads/2020/11/League-of-Legends-Logo.png" alt="League of Legends" height="69" width="184" class="w3-center">
+        </a>
+      </div>
+      
+      <script src="js/csgo.js"></script>
+    
+    </div>
+  </div>
+
+  <!-- Section contact forms -->
+  <div id="contact">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center white">Contact</h2>
+      
+
+      <form class="contact-form" action="mailto:a.lemaire@pole-formation.net?subject=[EPSI LAN CONTACT]" method="post" enctype="text/plain" accept-charset="UTF-8">
+        <label class="form-label" for="nom">Nom :</label>
+        <input class="form-input" type="text" id="nom" name="nom" required><br>
+
+        <label class="form-label" for="email">E-mail :</label>
+        <input class="form-input" type="email" id="email" name="email" required><br>
+
+        <label class="form-label" for="sujet">Sujet :</label>
+        <input class="form-input" type="text" id="sujet" name="sujet" required><br>
+
+        <label class="form-label" for="message">Message :</label>
+        <textarea class="form-input" id="message" name="message" rows="5" cols="30" required></textarea><br>
+
+        <input class="form-button" type="submit" value="Envoyer">
+        <input class="form-button" type="reset" value="Effacer">
+        <button class="discord-button w3-right" onclick="window.location.href = 'https://discord.gg/P6y9shZbSv';">Discord</button>
+
+      </form>
+
+    </div>
+  </div>
+  
+  <!-- Section contact forms -->
+  <div id="inscription">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center white">Inscription</h2>
+      <iframe class="w3-center" src="https://docs.google.com/forms/d/e/1FAIpQLSd6IHyVfzhbAMO04Pn-k3Vsa2F94pB93td-TsCibdaMZZkKuw/viewform?embedded=true" width="640" height="1726" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+  
+    </div>
+  </div>
+
+  <!-- PLAN Section -->
+  <div class="w3-container w3-content w3-padding-64  white" style="max-width:800px" id="ylocation">
+    <h2 class="w3-wide w3-center">Comment y acceder ?</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom" id="informations">
+        <i class="fa fa-map-marker" style="width:30px"></i> Pole Formation 58-89, 6 rte Monéteau, 89000 Auxerre<br>
+        <i class="fa fa-phone" style="width:30px"></i> Télephone : 03 86 49 26 07<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email : a.lemaire@pole-formation.net<br>
+        <i class="fa fa-gift" style="width:30px"> </i> <a class="blue" href="https://discord.gg/P6y9shZbSv">Discord</a><br>
+        
+      </div>
+      <div class="w3-col m6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2678.92391291864!2d3.582699715876949!3d47.821691981087405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee4f74753c237f%3A0xa6cfa67fb5102a1!2sP%C3%B4le%20Formation%2058-89%20Auxerre%20%2F%20Maison%20de%20l&#39;Entreprise!5e0!3m2!1sfr!2sfr!4v1677941816254!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-xlarge  white">
+ <a href="https://www.facebook.com/ecole.EPSI/?locale=fr_FR"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> 
+ <a href="https://www.instagram.com/epsi_ecoles/?hl=fr"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+ <a href="https://www.twitch.tv/ecolesepsiwis"><i class="fa fa-twitch w3-hover-opacity"></i></a>
+ <a href="https://www.linkedin.com/school/epsi_2/?originalSubdomain=fr"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+</html>
